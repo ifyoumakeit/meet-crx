@@ -1,0 +1,16 @@
+{
+  "name": "Google Meet Chrome Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Google Meet Chrome Extension",
+  "homepage_url": "http://extensionizr.com",
+  "icons": {},
+  "permissions": ["http://meet.google.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://meet.google.com/*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ]
+}
