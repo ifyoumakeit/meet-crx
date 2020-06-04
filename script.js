@@ -9,7 +9,6 @@
   const $REMOVE = "[aria-label^='Remove']";
   const $COUNT = ".wnPUne.N0PJ8e";
 
-  // UTILITIES
   async function waitFor(timeout) {
     return new Promise(resolve => {
       setTimeout(resolve, timeout);
